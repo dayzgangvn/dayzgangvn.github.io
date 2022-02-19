@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 50vh;
+    background: url(background3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+header ul{
+    list-style: none;
+    display: flex;
+
+}
+header ul li{
+    width: 150px;
+    height: 60;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+header ul li:hover{
+    background: linear-gradient(#61a5c5,#5568bb);
+    color: black;
+}
+header ul li:nth-child(1){
+    border-top: 4px solid #33ccff;
+    
+}
+main{
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main p{
+    width: 700px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold ;
+    color: rgb(238, 231, 231);
+    border-radius: 20px;
+}
+main button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    background: linear-gradient(#e6e1e1,#5568bb);
+    cursor: pointer;
+    color: white;
+}
+main button:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+
+}
+section{
+    display: block;
+    margin: auto;
+    height: calc(100vh - 60px);
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+section p1{
+    font-size: 50;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(243, 242, 242);
+    font-size: 30;
+}
+section p1:nth-child(1){
+    border-top: 4px solid #33ccff;
+}
+section p{
+    font-family: Courier New;
+    font-weight: 300px;
+    width: 300x;
+    height: 100x;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    color: white;
+    font-size: 50;  
+}
+section embed{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    width: 720px; 
+    height: 300px;
+}
+footer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.fb-page{
+    padding: 20px;
+    margin-left: 520px;
+    align-content: center;
+}
+footer section2:nth-child(1){
+    border-top: 4px solid #33ccff;
+}
+.container{
+    text-align: center;
+}
