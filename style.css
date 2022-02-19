@@ -14,7 +14,7 @@
 }
 body{
     height: 50vh;
-    background: url(background3.jpg);
+    background: url(background3.jpg) width:100%;
     background-size: 100%;
     background-repeat: no-repeat;
 }
