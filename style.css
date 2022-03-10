@@ -4,16 +4,20 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-  /* small devices (table >= 740px) */
-@media only screen and (max-width: 768px) {
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}  
+@media screen and (min-width: 1024px) { 
     body{
-        display: block;
-        height: 900px;
-        width: 415px;
+        height: 50vh;
     }
     header{
         height: 60px;
-        width: 415px;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -26,7 +30,7 @@
 
     }
     Header ul li{
-        width: 100px;
+        width: 150px;
         height: 60px;
         line-height: 60px;
         text-align: center;
@@ -41,43 +45,26 @@
         border-top: 4px solid #33ccff;
         
     }
-    main {
-        height: 233px;
-        width: 415px;
-        background: url(background3.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-    main .Play{
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
 
-    }
     main p{
-        display: block;
-        width: 220px;
-        height: 60px;
+        width: 700px;
+        height: 80px;
         text-shadow: 4px 4px #070505;
-        line-height: 25px;
+        line-height: 80px;
         text-align: center;
-        font-size: 23px;
+        font-size: 50px;
         font-weight: bold ;
         color: rgb(238, 231, 231);
-        border-radius: 10px;
+        border-radius: 20px;
     }
     main button{
-        display: block;
-        width: 80px;
-        height: 20px;
+        width: 250px;
+        height: 60px;
         border: none;
         outline: none;
         border-radius: 10px;
-        padding: auto;
-        margin-bottom: 50px;
-        font-size: 18px;
+        margin-top: 30px;
+        font-size: 30px;
         background: linear-gradient(#e6e1e1,#5568bb);
         cursor: pointer;
         color: white;
@@ -90,20 +77,19 @@
     section.S1{
         display: block;
         margin: auto;
-        height: 700px;
-        width: 415px;
+        height: calc(100vh - 60px);
         justify-content: center;
         align-items: center;
         background-color: black;
     }
     section p1{
-        font-size: 25px;
+        font-size: 35px;
         display: block;
         height: 50px;
-        line-height: 40px;
+        line-height: 50px;
         text-align: center;
         color: rgb(243, 242, 242);
-        font-size: 30px;
+        font-size: 30;
     }
     section p1:nth-child(1){
         border-top: 4px solid #33ccff;
@@ -111,25 +97,23 @@
     section p{
         font-family: Courier New;
         font-weight: 300px;
-        width: 400px;
-        height: 300px;
+        width: 300x;
+        height: 100x;
         padding: 30px;
         margin: 30px;
         text-align: center;
         color: white;
-        margin: auto;
-        margin-top: 15px;
-        font-size: 10px;  
+        font-size: 50;  
     }
     section iframe{
         display: block;
         margin: 0 auto;
         align-items: center;
-        width: 400px; 
+        width: 720px; 
         height: 300px;
     }
     footer{
-        width:  415px;
+        width:  1480px;
         height: 50vh;
         display: flex;
         flex-direction: column;
@@ -138,156 +122,24 @@
         padding-right:200px;
     }
     footer .iframe1{
-        width: 75px;
+        width: 100px;
         display: inline-flex;
         line-height: 60px;
         list-style: none;
         justify-items:center;
-  
+        padding-left: 500px;
+        padding-top: 20px;   
     }
     footer li{
-        padding-left: 15px;
+        padding-left: 40px;
     }
     
     footer section2:nth-child(1){
         border-top: 4px solid #33ccff;
-        width: 415px;
+        width: 1480px;
     }
     .container{
         text-align: center;
-        padding-right: 15px;
     }
-} 
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
-}
-body{
-    height: 50vh;
-    background: url(background3.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-header{
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-    background-color: black;
-}
-header ul{
-    list-style: none;
-    display: flex;
 
-}
-header ul li{
-    width: 150px;
-    height: 60;
-    line-height: 60px;
-    text-align: center;
-    cursor: pointer;
-}
-header ul li:hover{
-    background: linear-gradient(#61a5c5,#5568bb);
-    color: black;
-}
-header ul li:nth-child(1){
-    border-top: 4px solid #33ccff;
-    
-}
-main{
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-}
-main p{
-    width: 700px;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold ;
-    color: rgb(238, 231, 231);
-    border-radius: 20px;
-}
-main button{
-    width: 250px;
-    height: 60px;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    margin-top: 30px;
-    font-size: 30px;
-    background: linear-gradient(#e6e1e1,#5568bb);
-    cursor: pointer;
-    color: white;
-}
-main button:hover{
-    transform: translateY(5px);
-    transition: 0.2s;
-
-}
-section{
-    display: block;
-    margin: auto;
-    height: calc(100vh - 60px);
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
-section p1{
-    font-size: 50;
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    color: rgb(243, 242, 242);
-    font-size: 30;
-}
-section p1:nth-child(1){
-    border-top: 4px solid #33ccff;
-}
-section p{
-    font-family: Courier New;
-    font-weight: 300px;
-    width: 300x;
-    height: 100x;
-    padding: 30px;
-    margin: 30px;
-    text-align: center;
-    color: white;
-    font-size: 50;  
-}
-section embed{
-    display: block;
-    margin: 0 auto;
-    align-items: center;
-    width: 720px; 
-    height: 300px;
-}
-footer{
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    color: white;
-}
-.fb-page{
-    padding: 20px;
-    margin-left: 520px;
-    align-content: center;
-}
-footer section2:nth-child(1){
-    border-top: 4px solid #33ccff;
-}
-.container{
-    text-align: center;
 }
