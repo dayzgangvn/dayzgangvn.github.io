@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}  
+main{
+    background-color: black;
+    height: 1200px;
+    width: 1481px;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+Header ul{
+    list-style: none;
+    display: flex;
+
+}
+Header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 5px;
+}
+header ul li:hover{
+    background: linear-gradient(#61a5c5,#5568bb);
+    color: black;
+}
+header ul li:nth-child(1){
+    border-top: 4px solid #33ccff;       
+}
+section .CH{
+    height: 100px;
+}
+section .sub{
+    width: 500px;
+    height: 60px;
+    color: white ;
+    display: block;
+    padding-left: 10px;
+    font-size: 50px;   
+}
+section .sub:nth-child(1){
+    border-bottom: 4px solid #33ccff;
+}
+.CH1{
+    width: 900px;
+    height: 900px;
+    float: left;
+    color: white;
+    align-content: space-between;
+    font-size: 23px;
+    padding-left: 50px;
+}
+.CH2{
+    font-size: 23px;
+    color: white;
+    padding-right: 50px;
+}
+section .download{
+    width: 1481px;
+    display: block;
+}
+section .download:nth-child(1){
+    border-top: 4px solid #33ccff;
+}
+section .crack{
+    float: left;
+    width: 500px;
+    height: 70px;
+    padding-top: 20px;
+}
