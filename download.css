@@ -12,12 +12,9 @@
     width: extend-to-zoom;
     zoom: 1.0;
 }  
-main{
-    background-color: black;
-    height: 1200px;
-    width: 1481px;
+body{
+    height: 90px;
 }
-
 header{
     height: 60px;
     display: flex;
@@ -25,6 +22,8 @@ header{
     justify-content: space-around;
     color: white;
     background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 1479px;
 }
 Header ul{
     list-style: none;
@@ -43,47 +42,149 @@ header ul li:hover{
     background: linear-gradient(#61a5c5,#5568bb);
     color: black;
 }
-header ul li:nth-child(1){
-    border-top: 4px solid #33ccff;       
+
+main {
+    height:575px;
+    width: 1480px;
+    background-color: rgb(22, 22, 22);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
-section .CH{
+main .CH1{
+    height: 300px;
+    width: 700px;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+main .CH2{
+    height: 300px;
+    width: 700px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}   
+
+section.down{
+    height: 220px;
+    width: 1480px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding-top: 40px;
+}
+.link p {
+    font-size: 40px;
     height: 100px;
-}
-section .sub{
-    width: 500px;
-    height: 60px;
-    color: white ;
-    display: block;
-    padding-left: 10px;
-    font-size: 50px;   
-}
-section .sub:nth-child(1){
-    border-bottom: 4px solid #33ccff;
-}
-.CH1{
-    width: 900px;
-    height: 900px;
     float: left;
-    color: white;
-    align-content: space-between;
-    font-size: 23px;
-    padding-left: 50px;
 }
-.CH2{
-    font-size: 23px;
-    color: white;
-    padding-right: 50px;
+section ul{
+    list-style: none;
+    display: flex;
 }
-section .download{
-    width: 1481px;
+section ul li{
+    width: 700px;
+    height: 100px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 150px;
+    align-items: center;
+}
+.button1{
     display: block;
+    width: 140px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background: linear-gradient(#e6e1e1,#5568bb);
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
-section .download:nth-child(1){
+.button2{
+    display: block;
+    width: 140px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background: linear-gradient(#e6e1e1,#5568bb);
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.button3{
+    display: block;
+    width: 140px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background: linear-gradient(#e6e1e1,#5568bb);
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.button1:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+}
+.button2:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+}
+.button3:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+}
+footer{
+    width:  1480px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding-right:100px;
+}
+footer .iframe1{
+    width: 600px;
+    display: flex;
+    line-height: 100px;
+    list-style: none;
+    justify-items:center;
+    padding-left: 400px;
+}
+footer ul li{
+    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer section2:nth-child(1){
     border-top: 4px solid #33ccff;
+    width: 1480px;
 }
-section .crack{
-    float: left;
-    width: 500px;
-    height: 70px;
-    padding-top: 20px;
+.container{
+    text-align: center;
+    padding-right: 15px;
 }
+

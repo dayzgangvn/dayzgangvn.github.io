@@ -400,16 +400,16 @@
         width: 415px;
         justify-content: center;
         align-items: center;
-        background-color: rgb(22, 22, 22);
+        background-color: rgb(155, 43, 43);
     }
     section p1{
-        font-size: 25px;
+        font-size: 5px;
         display: block;
         height: 50px;
         line-height: 40px;
         text-align: center;
         color: rgb(243, 242, 242);
-        font-size: 30px;
+        
     }
     section p1:nth-child(1){
         border-top: 4px solid #33ccff;
